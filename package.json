@@ -14,7 +14,8 @@
   },
   "homepage": "https://github.com/Darksied95/node_restful_api_with_zod#readme",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "tsnd --respawn src/app.ts"
   },
   "dependencies": {
     "bcrypt": "^5.1.1",
