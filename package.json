@@ -1,0 +1,47 @@
+{
+  "name": "node_app_with_zod",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Darksied95/node_restful_api_with_zod.git"
+  },
+  "author": "Darksied95 <aliyuefe9501@gmail.com>",
+  "license": "MIT",
+  "description": "��#\u0000 \u0000n\u0000o\u0000d\u0000e\u0000_\u0000r\u0000e\u0000s\u0000t\u0000f\u0000u\u0000l\u0000_\u0000a\u0000p\u0000i\u0000_\u0000w\u0000i\u0000t\u0000h\u0000_\u0000z\u0000o\u0000d\u0000\r\u0000 \u0000",
+  "bugs": {
+    "url": "https://github.com/Darksied95/node_restful_api_with_zod/issues"
+  },
+  "homepage": "https://github.com/Darksied95/node_restful_api_with_zod#readme",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "bcrypt": "^5.1.1",
+    "config": "^3.3.9",
+    "cors": "^2.8.5",
+    "dayjs": "^1.11.10",
+    "express": "^4.18.2",
+    "jsonwebtoken": "^9.0.2",
+    "lodash": "^4.17.21",
+    "mongoose": "^7.6.4",
+    "nanoid": "^5.0.2",
+    "pino": "^8.16.1",
+    "pino-pretty": "^10.2.3",
+    "zod": "^3.22.4"
+  },
+  "devDependencies": {
+    "@types/bcrypt": "^5.0.1",
+    "@types/body-parser": "^1.19.4",
+    "@types/config": "^3.3.2",
+    "@types/cors": "^2.8.15",
+    "@types/express": "^4.17.20",
+    "@types/jsonwebtoken": "^9.0.4",
+    "@types/lodash": "^4.14.200",
+    "@types/nanoid": "^3.0.0",
+    "@types/node": "^20.8.10",
+    "@types/pino": "^7.0.5",
+    "ts-node-dev": "^2.0.0",
+    "typescript": "^5.2.2"
+  }
+}
