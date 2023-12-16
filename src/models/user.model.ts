@@ -13,7 +13,7 @@ export interface UserDocument extends UserInput, mongoose.Document {
     comparePassword(password: string): Promise<boolean>
 }
 
-const userSchema = new mongoose.Schema({
+const userSchema = new mongoose.Schema<UserDocument>({
     email: { type: String, required: true, unique: true },
     name: { type: String, required: true },
     password: { type: String, required: true },
@@ -38,6 +38,6 @@ userSchema.methods.comparePassword = async function (password: string): Promise<
     return bcrypt.compare(password, user.password).catch(e => false)
 }
 
-const UserModel = mongoose.model("User", userSchema)
+const UserModel = mongoose.model<UserDocument>("User", userSchema)
 
 export default UserModel
