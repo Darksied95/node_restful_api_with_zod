@@ -13,3 +13,6 @@ export async function findAndUpdateProduct(query: FilterQuery<ProductDocument>, 
     return await ProductModel.findOneAndUpdate(query, update, options)
 }
 
+export async function deleteProduct(query: FilterQuery<ProductDocument>) {
+    return await ProductModel.deleteOne(query)
+}
