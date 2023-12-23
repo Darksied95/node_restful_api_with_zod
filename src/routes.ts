@@ -5,6 +5,7 @@ import { createUserSessionHandler, deleteSessionHandler, getUserSessionHandler }
 import { createUserSchema } from "./schema/user.schema";
 import { createSessionSchema } from "./schema/session.schema";
 import { requireUser } from './middleware/requireUser';
+
 function routes(app: Express) {
 
     app.get('/healthcheck', (req: Request, res: Response) => {
